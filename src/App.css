@@ -1,6 +1,100 @@
-.App {
-  text-align: center;
+body{
+  background-color: lightgrey;
 }
+         /* News CSS*/
+
+.container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* background-color: gray; */
+  width: 80%;
+  margin-left: 10% ;
+}
+
+.padd{
+  padding: 20px;
+}
+
+.article{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.padd-article{
+  display: flex;
+  padding:15px;
+  justify-content: space-between;
+}
+
+.news-img{
+  width: 27%;
+  height:200px;
+  /* background-color: green ; */
+  display: flex;
+}
+
+.news-detail{
+  width: 70%;
+  height: 200px;
+  /* background-color:yellow ; */
+  font-family: "segoe UI";
+  box-shadow: 0 0 2px gray;
+}
+
+.news-img>img{
+  width: 100%;
+}
+
+h2,p{
+  margin: 0px;
+}
+
+p:nth-child(2){
+  margin-bottom: 15px;
+  color:gray;
+  font-size: 17px;
+  font-weight:bold;
+}
+
+p:nth-child(3){
+  color:gray;
+  margin-bottom: 20px;
+}
+
+.btn{
+  padding: 10px 30px;
+  font-family: "segoe UI";
+  border: none;
+  color: white;
+  background-color: rgb(65, 157, 243);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.filter{
+  width:100%;
+}
+
+input{
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+  text-indent: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  outline: none;
+  border:1px solid gray
+}
+
 
 .App-logo {
   height: 40vmin;
